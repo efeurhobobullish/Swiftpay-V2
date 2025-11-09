@@ -17,7 +17,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(cors(
   {
-    origin: ["https://questpay.ng", "http://localhost:7000", "http://localhost:9001", "https://admin.questpay.ng"],
+    origin: ["https://questpay.ng", "http://localhost:7000", "http://localhost:9001", "https://admin.questpay.ng", "https://swiftpay-v2.vercel.app"],
     credentials: true,
   }
 ));
