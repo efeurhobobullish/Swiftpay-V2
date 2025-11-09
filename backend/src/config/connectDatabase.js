@@ -4,7 +4,7 @@ import process from "process";
 
 const connectDatabase = async () => {
     try {
-        await mongoose.connect(process.env.MONGO_URI).p;
+        await mongoose.connect(process.env.MONGO_URI);
         console.log("Database connected successfully! ✅");
     } catch (error) {
         console.log("Database connection failed! ❌", error);
